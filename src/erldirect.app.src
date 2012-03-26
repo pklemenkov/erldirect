@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, erldirect,
+ [{description, "erldirect"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'erldirect_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
